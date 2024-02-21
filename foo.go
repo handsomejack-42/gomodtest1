@@ -2,6 +2,6 @@ package gomodtest1
 
 import "fmt"
 
-func Foo() {
-	fmt.Println("v0.0.1")
+func Foo(s string) {
+	fmt.Printf("%s: v0.0.2\n", s)
 }
